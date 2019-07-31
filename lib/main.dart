@@ -40,6 +40,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
   @override
   Widget build(BuildContext context) {
+  	// Для дальнейшего использования достаточно заменить itemBuilder и images
     return Scaffold(
       appBar: AppBar(title: Text('Ex 1')),
       body: Center(
