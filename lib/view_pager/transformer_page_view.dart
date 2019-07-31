@@ -212,7 +212,7 @@ class TransformerPageView extends StatefulWidget {
     @required this.itemBuilder,
     this.pageController,
     this.physics,
-  })  : this.loop = true,
+  })  : this.loop = false,
         this.viewportFraction = 1.0,
         this.duration = Duration(milliseconds: kDefaultTransactionDuration),
         this.pageSnapping = true,
